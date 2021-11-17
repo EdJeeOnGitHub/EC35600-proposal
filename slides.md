@@ -189,10 +189,10 @@ independent of treatment effects_.
 
 ---
 
-# Our Solution
+# A Solution
 
 
-However, in our context we have institutional knowledge of the site selection 
+However, in this context we have institutional knowledge of the site selection 
 assignment rule.
 
 - Given rich micro-data we can recast the problem as whether _individuals_ 
