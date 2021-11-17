@@ -210,6 +210,30 @@ result.
 
 ---
 
+# More Generally
+
+We face a sample selection problem with asymmetric endogeneity:
+
+$$
+\begin{align*}
+D_i &= \mathbb{I}\{\mu_D(C) > V\} \\
+Y_i^e &= \beta^e T_i + \epsilon_i^e \text{  if  } D_i = e \\
+Y_i^o &= \beta^o T_i + \epsilon_i^o \text{  if  } D_i = o
+\end{align*}
+$$
+
+- Where $\beta^e$ can only be uncovered using an _internal_ instrument and $\beta^o$ can be uncovered using information from $\beta^e$.
+
+- But this mutual debiasing has to take into account the sample selection problem between observational and experimental studies, motivating an 
+_external_ instrument.
+
+
+- Rather than use an external instrument like $GM$ we effectively non-parametrically model the propensity score near the borders of RCT/observational study and
+extrapolate to rest of study.
+
+- Extrapolation step makes me a little queasy so still figuring this out.
+
+---
 
 # Next Steps
 
